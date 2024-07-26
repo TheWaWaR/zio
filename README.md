@@ -1,6 +1,11 @@
 # Zio
 A cross-platform event loop library extract from [tigerbettle](https://github.com/tigerbeetle/tigerbeetle/tree/main/src/io) code base.
 
+Supported platform:
+* Linux (io_uring)
+* Darwin (kqueue)
+* Windows (IOCP)
+
 ## Examples
 
 See: `src/io/test.zig`
